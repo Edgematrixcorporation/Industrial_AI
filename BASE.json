@@ -1,0 +1,1106 @@
+{
+    "intents": [
+        
+        {
+            "tag": "chronic_fatigue_syndrome",
+            "patterns": [
+                "Constant fatigue and muscle weakness, struggling to stay awake.",
+                "I've been feeling extremely fatigued and find it hard to concentrate.",
+                "I have been feeling very tired lately, even with a full night's sleep.",
+                "Constant fatigue and difficulty concentrating for weeks.",
+                "Extreme fatigue after minimal activity."
+            ],
+            "responses": [
+                "For Chronic Fatigue Syndrome, cognitive behavioral therapy and graded exercise therapy are recommended. Regular exercise, stress management techniques, and a balanced diet can also help."
+            ]
+        },{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello! How can I assist you with Medical Assistance today?"
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "Frequent severe migraines, sensitivity to light and sound.",
+                "Experiencing frequent headaches, sensitivity to light and sound.",
+                "Frequent migraines that last for hours.",
+                "Recurring severe headaches and sensitivity to light.",
+                "I've been experiencing severe headaches and occasional dizziness."
+            ],
+            "responses": [
+                "Migraine management includes prescription triptans and avoiding triggers like bright lights. Sumatriptan and propranolol are commonly prescribed. It's also advised to rest in a dark, quiet room."
+            ]
+        },
+        {
+            "tag": "hypothyroidism",
+            "patterns": [
+                "Sudden weight gain and feeling cold, especially in the hands and feet.",
+                "Sudden weight gain and puffiness in the face.",
+                "Dry skin and hair, feeling cold all the time.",
+                "Sudden weight gain without changes in diet."
+            ],
+            "responses": [
+                "Hypothyroidism is treated with Levothyroxine to regulate thyroid hormone levels. Regular TSH level checks are necessary, and dietary adjustments may help manage symptoms."
+            ]
+        },
+        {
+            "tag": "mononucleosis",
+            "patterns": [
+                "High fever, sore throat, and swollen lymph nodes, feeling very weak."
+            ],
+            "responses": [
+                "For Mononucleosis, rest and hydration are essential. Ibuprofen can be used for pain relief."
+            ]
+        },
+        {
+            "tag": "diabetes_mellitus",
+            "patterns": [
+                "Excessive thirst and frequent urination, dry mouth persistently.",
+                "Frequent urination, especially at night, and feeling thirsty.",
+                "Constant thirst and dry mouth.",
+                "Frequent urination and excessive thirst.",
+                "Unintended weight loss and constant thirst."
+            ],
+            "responses": [
+                "Diabetes Mellitus is managed with insulin therapy and lifestyle changes. Monitoring blood sugar levels regularly and dietary adjustments are also important."
+            ]
+        },
+        {
+            "tag": "pericarditis",
+            "patterns": [
+                "Sharp, stabbing chest pain that worsens when lying down or inhaling deeply."
+            ],
+            "responses": [
+                "Pericarditis is treated with anti-inflammatory medication and rest. If symptoms persist, further medical evaluation may be necessary."
+            ]
+        },
+        {
+            "tag": "tuberculosis",
+            "patterns": [
+                "Unexplained weight loss and night sweats, feeling feverish."
+            ],
+            "responses": [
+                "Tuberculosis is treated with antibiotics. Rest and a high-calorie diet can help support recovery."
+            ]
+        },
+        {
+            "tag": "pancreatitis",
+            "patterns": [
+                "Severe abdominal pain radiating to the back, nausea without vomiting."
+            ],
+            "responses": [
+                "Pancreatitis treatment includes IV fluids, pain relief, and sometimes surgery. Avoiding alcohol and fatty foods is also recommended."
+            ]
+        },
+        {
+            "tag": "rheumatoid_arthritis",
+            "patterns": [
+                "Joint swelling and stiffness in the morning, especially in the fingers and wrists.",
+                "Joint pain in hands and feet, stiffness in the morning.",
+                "Swollen, tender joints in hands and wrists.",
+                "Experiencing joint pain in hands and feet.",
+                "Swelling and pain in the joints, especially in the morning."
+            ],
+            "responses": [
+                "Rheumatoid Arthritis is managed with DMARDs and NSAIDs, along with physical therapy to maintain joint function and reduce pain."
+            ]
+        },
+        {
+            "tag": "herpes_simplex",
+            "patterns": [
+                "Recurrent, painful blisters around the mouth and nose."
+            ],
+            "responses": [
+                "Herpes Simplex can be managed with antiviral medication and pain relief creams. Avoiding triggers that cause outbreaks can also help."
+            ]
+        },
+        {
+            "tag": "esophageal_reflux",
+            "patterns": [
+                "Progressive difficulty swallowing, accompanied by heartburn."
+            ],
+            "responses": [
+                "Esophageal Reflux is treated with antacids and avoiding spicy and fatty foods. Lifestyle modifications such as eating smaller meals can also help manage symptoms."
+            ]
+        },
+        {
+            "tag": "irritable_bowel_syndrome",
+            "patterns": [
+                "Chronic diarrhea, abdominal cramps, and gas.",
+                "Recurrent stomach pain, bloating, and altered bowel habits.",
+                "My stomach has been upset, with bouts of diarrhea and nausea."
+            ],
+            "responses": [
+                "Irritable Bowel Syndrome (IBS) is managed with fiber supplements and antispasmodic drugs. Dietary changes and stress management techniques can also be beneficial."
+            ]
+        },
+        {
+            "tag": "scabies",
+            "patterns": [
+                "Intense itching, especially at night, with visible burrows on the skin."
+            ],
+            "responses": [
+                "Scabies is treated with permethrin cream and thorough washing of all clothing and bedding to prevent reinfestation."
+            ]
+        },
+        {
+            "tag": "hepatitis",
+            "patterns": [
+                "Yellowing of the skin and eyes, dark urine, and general fatigue.",
+                "Yellowing of the skin and eyes, fatigue, and abdominal pain."
+            ],
+            "responses": [
+                "Hepatitis treatment involves antiviral drugs and regular monitoring of liver function. Avoiding alcohol is also recommended."
+            ]
+        },
+        {
+            "tag": "subarachnoid_hemorrhage",
+            "patterns": [
+                "Sudden, severe headache with no known cause, blurred vision."
+            ],
+            "responses": [
+                "Subarachnoid Hemorrhage requires immediate medical evaluation, and possibly surgery. Early treatment is crucial for the best outcome."
+            ]
+        },
+        {
+            "tag": "lung_cancer",
+            "patterns": [
+                "Persistent cough with blood-tinged sputum, night sweats."
+            ],
+            "responses": [
+                "Lung Cancer is treated with chemotherapy and targeted drug therapy. Early detection and treatment improve the prognosis."
+            ]
+        },
+        {
+            "tag": "hemophilia",
+            "patterns": [
+                "Frequent nosebleeds, easy bruising, and prolonged bleeding from cuts.",
+                "Unexplained bruising on the skin."
+            ],
+            "responses": [
+                "Hemophilia is managed with replacement therapy with clotting factors. Avoiding known triggers and injury prevention are also important."
+            ]
+        },
+        {
+            "tag": "food_allergy",
+            "patterns": [
+                "Severe itching and rash after consuming certain foods."
+            ],
+            "responses": [
+                "Food Allergies are managed by avoiding allergens and taking antihistamines. In severe cases, an epinephrine injection may be necessary."
+            ]
+        },
+        {
+            "tag": "urinary_tract_infection",
+            "patterns": [
+                "Repeated urinary tract infections, burning sensation while urinating.",
+                "Frequent urination and a burning sensation.",
+                "Persistent cough with greenish phlegm.",
+                "Frequent urination.",
+                "Difficulty swallowing food and liquids."
+            ],
+            "responses": [
+                "Urinary Tract Infections (UTIs) are treated with antibiotics and increased fluid intake. Drinking plenty of water helps flush out bacteria."
+            ]
+        },
+        {
+            "tag": "early_onset_dementia",
+            "patterns": [
+                "Difficulty concentrating, memory lapses, and confusion."
+            ],
+            "responses": [
+                "Early Onset Dementia is managed with cognitive stimulation therapy and supportive care. Keeping the mind active and engaged can help slow progression."
+            ]
+        },
+        {
+            "tag": "asthma",
+            "patterns": [
+                "Noticed a persistent cough and occasional wheezing, especially at night.",
+                "Sudden shortness of breath with mild exertion.",
+                "Persistent coughing and difficulty breathing at night.",
+                "Constant shortness of breath and tightness in my chest.",
+                "Shortness of breath during light physical activity."
+            ],
+            "responses": [
+                "Asthma is managed with inhaled corticosteroids and avoiding known allergens. Using a short-acting beta-agonist can provide quick relief during an asthma attack."
+            ]
+        },
+        {
+            "tag": "panic_attacks",
+            "patterns": [
+                "Sudden episodes of rapid heartbeat, feeling faint.",
+                "Sudden episodes of rapid heartbeat.",
+                "Episodes of severe anxiety and panic attacks."
+            ],
+            "responses": [
+                "Panic Attacks can be managed with deep breathing exercises and SSRIs if recurrent. Cognitive-behavioral therapy can also help manage symptoms."
+            ]
+        },
+        {
+            "tag": "type_1_diabetes",
+            "patterns": [
+                "Unintended weight loss and constant thirst.",
+                "Frequent urination and excessive thirst.",
+                "Frequent urination and excessive thirst.",
+                "Sudden weight loss and a constant feeling of hunger.",
+                "Difficulty concentrating and memory lapses."
+            ],
+            "responses": [
+                "Type 1 Diabetes is managed with insulin therapy and dietary adjustments. Regular blood glucose monitoring and maintaining a healthy lifestyle are also important."
+            ]
+        },
+        {
+            "tag": "tension_headaches",
+            "patterns": [
+                "Persistent headaches and a feeling of pressure around my head.",
+                "Recurring headaches that start in the back of my head and move forward."
+            ],
+            "responses": [
+                "Tension Headaches can be relieved with over-the-counter pain medication and relaxation techniques. Maintaining good posture and managing stress can help prevent them."
+            ]
+        },
+        {
+            "tag": "severe_itching_without_rash",
+            "patterns": [
+                "severe itching without rash",
+                "itchy skin without rash",
+                "itchy skin"
+            ],
+            "responses": [
+                "Itching without rash could be a sign of eczema. Common treatments include using moisturizers and topical steroids."
+            ]
+        },
+        {
+            "tag": "hair_loss_in_patches",
+            "patterns": [
+                "hair loss in patches",
+                "bald spots on head",
+                "patchy hair loss"
+            ],
+            "responses": [
+                "Hair loss in patches might be alopecia areata. Treatments often include topical minoxidil or steroid injections."
+            ]
+        },
+        {
+            "tag": "brittle_nails_dry_skin",
+            "patterns": [
+                "brittle nails and dry skin",
+                "dry skin and nails",
+                "nails are brittle"
+            ],
+            "responses": [
+                "Brittle nails and dry skin could be symptoms of hypothyroidism. Treatments typically involve thyroid hormone therapy and regular monitoring."
+            ]
+        },
+        {
+            "tag": "cramps_muscle_spasms",
+            "patterns": [
+                "cramps and muscle spasms",
+                "muscle cramps",
+                "muscle spasms"
+            ],
+            "responses": [
+                "Cramps and muscle spasms may indicate an electrolyte imbalance. Treatments include electrolyte supplements and staying hydrated."
+            ]
+        },
+        {
+            "tag": "mood_swings_irritability",
+            "patterns": [
+                "mood swings and irritability",
+                "feeling moody",
+                "irritability"
+            ],
+            "responses": [
+                "Mood swings and irritability can be symptoms of bipolar disorder. Treatments often involve mood stabilizers and psychotherapy."
+            ]
+        },
+        {
+            "tag": "increased_sensitivity_to_cold",
+            "patterns": [
+                "increased sensitivity to cold",
+                "feeling cold all the time",
+                "sensitive to cold"
+            ],
+            "responses": [
+                "Increased sensitivity to cold could be a sign of hypothyroidism. Treatment usually includes synthetic thyroid hormone and avoiding soy products."
+            ]
+        },
+        {
+            "tag": "numbness_in_hands_feet",
+            "patterns": [
+                "numbness in hands and feet",
+                "tingling in hands and feet",
+                "hands and feet numb"
+            ],
+            "responses": [
+                "Numbness in hands and feet might be due to peripheral neuropathy. Pain management and regular exercise are recommended treatments."
+            ]
+        },
+        {
+            "tag": "painful_urination",
+            "patterns": [
+                "painful urination",
+                "burning sensation during urination",
+                "pain when urinating"
+            ],
+            "responses": [
+                "Painful urination could be caused by cystitis. Treatments include antibiotics and urinary analgesics."
+            ]
+        },
+        {
+            "tag": "excessive_sweating_at_night",
+            "patterns": [
+                "excessive sweating at night",
+                "night sweats",
+                "sweating while sleeping"
+            ],
+            "responses": [
+                "Excessive sweating at night may be related to tuberculosis. Antitubercular therapy and respiratory exercises may be necessary."
+            ]
+        },
+        {
+            "tag": "difficulty_concentrating_tasks",
+            "patterns": [
+                "difficulty concentrating on tasks",
+                "trouble focusing",
+                "can't concentrate"
+            ],
+            "responses": [
+                "Difficulty concentrating could be related to Attention Deficit Hyperactivity Disorder (ADHD). Treatments might include behavioral therapy and medication for focus and impulse control."
+            ]
+        },
+        {
+            "tag": "loss_of_balance_coordination",
+            "patterns": [
+                "loss of balance and coordination",
+                "difficulty with balance",
+                "balance issues"
+            ],
+            "responses": [
+                "Loss of balance and coordination might be a symptom of Multiple Sclerosis. Disease-modifying treatments and physical therapy are recommended."
+            ]
+        },
+        {
+            "tag": "severe_headaches_lately",
+            "patterns": [
+                "severe headaches lately",
+                "frequent headaches",
+                "bad headaches"
+            ],
+            "responses": [
+                "Severe headaches might be tension headaches. Consider avoiding stress and using over-the-counter pain relief if needed."
+            ]
+        },
+        {
+            "tag": "stomach_upset_almost_every_morning",
+            "patterns": [
+                "stomach upset almost every morning",
+                "morning stomach issues",
+                "stomach problems in the morning"
+            ],
+            "responses": [
+                "Frequent stomach upset could indicate Irritable Bowel Syndrome. A low FODMAP diet and probiotics may help."
+            ]
+        },
+        {
+            "tag": "persistent_rash_on_forearm",
+            "patterns": [
+                "persistent rash on forearm",
+                "forearm rash",
+                "itchy rash on arm"
+            ],
+            "responses": [
+                "A persistent rash on the forearm might be contact dermatitis. Avoid irritants and apply hydrocortisone cream as needed."
+            ]
+        },
+        {
+            "tag": "cough_difficulty_breathing_at_night",
+            "patterns": [
+                "cough and difficulty breathing at night",
+                "nighttime cough",
+                "shortness of breath at night"
+            ],
+            "responses": [
+                "Cough and difficulty breathing at night could be bronchial asthma. Using inhalers as prescribed and avoiding allergens are key treatments."
+            ]
+        },
+        {
+            "tag": "knee_hurts_when_climbing_stairs",
+            "patterns": [
+                "knee hurts when climbing stairs",
+                "pain in knee when walking up stairs",
+                "knee pain"
+            ],
+            "responses": [
+                "Pain in the knee while climbing stairs may be due to patellar tendinitis. Physical therapy and rest are recommended treatments."
+            ]
+        },
+        {
+            "tag": "seeing_floaters_in_vision_frequently",
+            "patterns": [
+                "seeing floaters in vision frequently",
+                "floaters in vision",
+                "spots in vision"
+            ],
+            "responses": [
+                "Frequent floaters in vision might indicate retinal detachment. Seek immediate medical attention as surgery might be necessary."
+            ]
+        },
+        {
+            "tag": "feeling_unusually_tired",
+            "patterns": [
+                "feeling unusually tired",
+                "always tired",
+                "fatigue"
+            ],
+            "responses": [
+                "Feeling unusually tired even after resting might be due to iron deficiency anemia. Iron supplements and dietary changes are typically recommended."
+            ]
+        },
+        {
+            "tag": "lower_back_pain_constant_after_sitting",
+            "patterns": [
+                "lower back pain constant after sitting",
+                "back pain after sitting",
+                "pain in lower back"
+            ],
+            "responses": [
+                "Constant lower back pain after sitting could be sciatica. Pain relief medication and physical therapy might be helpful."
+            ]
+        },
+        {
+            "tag": "thirsty_all_the_time_urinating_often",
+            "patterns": [
+                "thirsty all the time and urinating more often",
+                "constant thirst",
+                "frequent urination"
+            ],
+            "responses": [
+                "Excessive thirst and frequent urination might be symptoms of Type 1 Diabetes Mellitus. Insulin therapy and regular monitoring of blood sugar levels are essential."
+            ]
+        },
+        {
+            "tag": "trouble_falling_asleep_feeling_anxious",
+            "patterns": [
+                "trouble falling asleep",
+                "feeling anxious and can't sleep",
+                "insomnia"
+            ],
+            "responses": [
+                "Trouble falling asleep and feeling anxious could be related to insomnia. Adopting good sleep hygiene and considering melatonin supplements may help."
+            ]
+        },
+        {
+            "tag": "allergies_worse_this_season",
+            "patterns": [
+                "allergies worse this season",
+                "seasonal allergies",
+                "worsening allergies"
+            ],
+            "responses": [
+                "Seasonal allergies can be managed with antihistamines and nasal corticosteroids."
+            ]
+        },
+        {
+            "tag": "pain_and_swelling_in_wrists",
+            "patterns": [
+                "pain and swelling in wrists",
+                "wrist pain",
+                "swollen wrists"
+            ],
+            "responses": [
+                "Pain and swelling in the wrists may be due to carpal tunnel syndrome. Wrist splints and corticosteroid injections can provide relief."
+            ]
+        },
+        {
+            "tag": "skin_very_dry_and_itchy",
+            "patterns": [
+                "skin very dry and itchy",
+                "dry, itchy skin",
+                "extremely dry skin"
+            ],
+            "responses": [
+                "Very dry and itchy skin could be atopic dermatitis. Moisturizers and topical steroids during flare-ups are often recommended."
+            ]
+        },
+        {
+            "tag": "feeling_dizzy_when_standing_up_quickly",
+            "patterns": [
+                "feeling dizzy when standing up quickly",
+                "dizziness upon standing",
+                "lightheaded when standing"
+            ],
+            "responses": [
+                "Feeling dizzy when standing up quickly might indicate orthostatic hypotension. Increasing salt intake and wearing compression stockings may help."
+            ]
+        },
+        {
+            "tag": "hearing_ringing_noise_in_ears_often",
+            "patterns": [
+                "hearing ringing noise in ears often",
+                "tinnitus",
+                "ringing in ears"
+            ],
+            "responses": [
+                "Ringing noise in the ears is known as tinnitus. Avoiding loud noises and using masking devices might be beneficial."
+            ]
+        },
+        {
+            "tag": "losing_weight_without_trying",
+            "patterns": [
+                "losing weight without trying",
+                "unexplained weight loss",
+                "weight loss"
+            ],
+            "responses": [
+                "Unexplained weight loss might be related to hyperthyroidism. Treatments often include antithyroid medications and regular monitoring of thyroid levels."
+            ]
+        },
+        {
+            "tag": "noticed_more_hair_falling_out_than_usual",
+            "patterns": [
+                "noticed more hair falling out than usual",
+                "hair loss",
+                "increased hair shedding"
+            ],
+            "responses": [
+                "Increased hair loss could be a symptom of alopecia areata. Topical minoxidil and corticosteroid injections may be prescribed."
+            ]
+        },
+        {
+            "tag": "memory_not_as_sharp_lately",
+            "patterns": [
+                "memory hasn't been as sharp lately",
+                "difficulty with memory",
+                "poor memory"
+            ],
+            "responses": [
+                "Memory issues could be an early sign of dementia. Cognitive activities and consultation with a neurologist for potential medications may help."
+            ]
+        },
+        {
+            "tag": "experiencing_chest_pain_occasionaly",
+            "patterns": [
+                "experiencing chest pain occasionally",
+                "chest pain",
+                "pain in chest"
+            ],
+            "responses": [
+                "Occasional chest pain might be angina pectoris. Nitroglycerin and lifestyle changes are common treatments."
+            ]
+        },
+        {
+            "tag": "appetite_has_decreased_significantly",
+            "patterns": [
+                "appetite has decreased significantly",
+                "loss of appetite",
+                "eating less"
+            ],
+            "responses": [
+                "A significant decrease in appetite could be anorexia. Nutritional counseling and possibly antidepressants may be needed."
+            ]
+        },
+        {
+            "tag": "feeling_short_of_breath_after_minimal_activity",
+            "patterns": [
+                "feeling short of breath after minimal activity",
+                "shortness of breath",
+                "breathlessness"
+            ],
+            "responses": [
+                "Feeling short of breath after minimal activity could be due to Chronic Obstructive Pulmonary Disease (COPD). Bronchodilators and oxygen therapy might be necessary."
+            ]
+        },
+        {
+            "tag": "bruises_appearing_without_any_injury",
+            "patterns": [
+                "bruises appearing without any injury",
+                "bruises with no cause",
+                "unexplained bruising"
+            ],
+            "responses": [
+                "Unexplained bruises might be a sign of leukemia. Chemotherapy or radiation therapy may be required based on the stage."
+            ]
+        },
+        {
+            "tag": "frequent_sore_throats",
+            "patterns": [
+                "frequent sore throats",
+                "sore throat often",
+                "recurrent sore throat"
+            ],
+            "responses": [
+                "Frequent sore throats may be due to pharyngitis. Warm saltwater gargles and analgesic lozenges can provide relief."
+            ]
+        },
+        {
+            "tag": "difficulty_swallowing_food",
+            "patterns": [
+                "difficulty swallowing food",
+                "trouble swallowing",
+                "painful swallowing"
+            ],
+            "responses": [
+                "Difficulty swallowing could be caused by esophageal stricture. Dilated endoscopy for diagnosis and dietary adjustments might be necessary."
+            ]
+        },
+        {
+            "tag": "noticing_blood_in_stool",
+            "patterns": [
+                "noticing blood in stool",
+                "blood in stool",
+                "bloody stools"
+            ],
+            "responses": [
+                "Blood in stool might indicate colorectal cancer. A colonoscopy for diagnosis and possible surgery could be needed."
+            ]
+        },
+        {
+            "tag": "constantely_feeling_cold",
+            "patterns": [
+                "constantly feeling cold",
+                "feeling cold all the time",
+                "always cold"
+            ],
+            "responses": [
+                "Constant feeling of cold may be due to hypothyroidism. Thyroid hormone replacement therapy is the usual treatment."
+            ]
+        },
+        {
+            "tag": "periods_irregular",
+            "patterns": [
+                "periods have been irregular",
+                "irregular menstrual cycles",
+                "changes in menstrual cycle"
+            ],
+            "responses": [
+                "Irregular periods might be a sign of Polycystic Ovary Syndrome (PCOS). Birth control pills and lifestyle modifications are common treatments."
+            ]
+        },
+        {
+            "tag": "swelling_pain_in_ankles",
+            "patterns": [
+                "swelling and pain in ankles",
+                "ankle pain and swelling",
+                "swollen ankles"
+            ],
+            "responses": [
+                "Swelling and pain in the ankles may be due to gout. Treatments include NSAIDs for pain relief, lifestyle changes, and diet modifications."
+            ]
+        },
+        {
+            "tag": "severe_headaches_dizziness",
+            "patterns": [
+                "severe headaches and occasional dizziness",
+                "frequent headaches and dizziness",
+                "headaches with dizziness"
+            ],
+            "responses": [
+                "Severe headaches with dizziness could be migraine. Prescribed triptans and avoiding triggers like stress and certain foods might be effective."
+            ]
+        },
+        {
+            "tag": "stomach_upset_diarrhea_nausea",
+            "patterns": [
+                "stomach upset and diarrhea and nausea",
+                "digestive issues",
+                "frequent stomach upset"
+            ],
+            "responses": [
+                "Stomach upset, diarrhea, and nausea could be symptoms of Irritable Bowel Syndrome. High-fiber diet and antispasmodic medications might help."
+            ]
+        },
+        {
+            "tag": "rash_on_arm_itchy_spreading",
+            "patterns": [
+                "rash on arm that's itchy and spreading",
+                "spreading rash",
+                "itchy rash on arm"
+            ],
+            "responses": [
+                "An itchy and spreading rash on the arm may be contact dermatitis. Topical steroids, moisturizers, and avoiding irritants are recommended."
+            ]
+        },
+        {
+            "tag": "persistent_cough_shortness_of_breath",
+            "patterns": [
+                "persistent coughing and shortness of breath",
+                "cough and breathlessness",
+                "chronic cough"
+            ],
+            "responses": [
+                "Persistent coughing and shortness of breath, especially at night, could indicate Chronic Obstructive Pulmonary Disease (COPD). Inhaled bronchodilators and quitting smoking may help."
+            ]
+        },
+        {
+            "tag": "sharp_knee_pain_walking_climbing_stairs",
+            "patterns": [
+                "sharp knee pain when walking or climbing stairs",
+                "knee pain while climbing",
+                "pain in knee during activity"
+            ],
+            "responses": [
+                "Sharp knee pain while walking or climbing stairs might be tendinitis. Physical therapy and NSAIDs for pain relief are usually recommended."
+            ]
+        },
+        {
+            "tag": "vision_blurry_when_reading",
+            "patterns": [
+                "vision blurry when reading",
+                "blurry vision",
+                "difficulty seeing clearly"
+            ],
+            "responses": [
+                "Blurry vision, especially when reading, could be a sign of age-related macular degeneration. Anti-VEGF therapy might be required."
+            ]
+        },
+        {
+            "tag": "severe_abdominal_pain_tenderness",
+            "patterns": [
+                "severe abdominal pain and tenderness",
+                "pain in lower right side of abdomen",
+                "lower right side abdominal pain"
+            ],
+            "responses": [
+                "Severe abdominal pain and tenderness, especially in the lower right side, may indicate appendicitis. The typical treatment is surgical removal of the appendix."
+            ]
+        },
+        {
+            "tag": "difficulty_swallowing_food",
+            "patterns": [
+                "difficulty swallowing food",
+                "feeling like food is stuck in the throat",
+                "trouble swallowing"
+            ],
+            "responses": [
+                "Difficulty swallowing and the sensation of food being stuck could be due to esophageal obstruction. Treatments often involve dietary changes and endoscopic treatment."
+            ]
+        },
+        {
+            "tag": "chronic_dry_cough",
+            "patterns": [
+                "chronic dry cough",
+                "persistent hacking cough",
+                "dry cough without infection"
+            ],
+            "responses": [
+                "A chronic dry, hacking cough without signs of infection might be chronic bronchitis. Quitting smoking and using bronchodilators can help manage the condition."
+            ]
+        },
+        {
+            "tag": "thinning_hair_on_top_of_head",
+            "patterns": [
+                "thinning hair on top of head",
+                "hair thinning on the scalp",
+                "balding on the top of head"
+            ],
+            "responses": [
+                "Noticeable thinning of the hair on the top of the head could be androgenetic alopecia. Treatments include minoxidil or finasteride for males."
+            ]
+        },
+        {
+            "tag": "greenish_discharge_from_eyes",
+            "patterns": [
+                "greenish discharge from eyes",
+                "itchy eyes with green discharge",
+                "irritation and discharge from eyes"
+            ],
+            "responses": [
+                "Greenish discharge from the eyes, along with itching and irritation, might be conjunctivitis. Treatment usually involves antibiotic or antihistamine eye drops."
+            ]
+        },
+        {
+            "tag": "confusion_difficulty_speaking",
+            "patterns": [
+                "confusion and difficulty speaking",
+                "trouble understanding speech",
+                "difficulty speaking and confusion"
+            ],
+            "responses": [
+                "Experiencing confusion, difficulty speaking, and understanding speech could be a sign of a stroke. Immediate medical attention and clot-busting drugs are crucial."
+            ]
+        },
+        {
+            "tag": "fullness_in_ears_hearing_loss",
+            "patterns": [
+                "constant feeling of fullness in ears",
+                "ear fullness and hearing loss",
+                "hearing issues and ear fullness"
+            ],
+            "responses": [
+                "A constant feeling of fullness in the ears and hearing loss may indicate eustachian tube dysfunction. Nasal steroids and autoinflation exercises are common treatments."
+            ]
+        },
+        {
+            "tag": "blood_in_stool_change_in_bowel_movement",
+            "patterns": [
+                "blood in stool and change in bowel movement frequency",
+                "bloody stools with altered bowel movements",
+                "stool with blood and frequency changes"
+            ],
+            "responses": [
+                "Blood in the stool and changes in bowel movement frequency could be a sign of colorectal cancer. Colonoscopy, surgery, and chemotherapy might be necessary based on the diagnosis."
+            ]
+        },
+        {
+            "tag": "I'm stressed",
+            "patterns": [
+                "I'm stressed.",
+                "I'm feeling stressed.",
+                "I'm under a lot of stress."
+            ],
+            "responses": [
+                "Stress management techniques like exercise, meditation, and time management can help reduce stress. Consider speaking to a mental health professional if stress becomes overwhelming."
+            ]
+        },
+        {
+            "tag": "I'm depressed",
+            "patterns": [
+                "I'm depressed.",
+                "I'm feeling depressed.",
+                "I think I'm depressed."
+            ],
+            "responses": [
+                "It's important to talk to a mental health professional about your feelings of depression. They can provide a proper diagnosis and treatment plan, which may include therapy, medication, or lifestyle changes."
+            ]
+        },
+        {
+            "tag": "I have anxiety",
+            "patterns": [
+                "I have anxiety.",
+                "I'm feeling anxious.",
+                "I think I have anxiety."
+            ],
+            "responses": [
+                "Anxiety can be managed with therapy, medication, and lifestyle changes like regular exercise and mindfulness practices. Speak to a mental health professional for personalized advice."
+            ]
+        },
+        {
+            "tag": "I'm feeling lonely",
+            "patterns": [
+                "I'm feeling lonely.",
+                "I feel lonely.",
+                "I'm lonely."
+            ],
+            "responses": [
+                "Feeling lonely is common, but it's important to reach out to friends, family, or support groups. Engaging in social activities and hobbies can also help reduce feelings of loneliness."
+            ]
+        },
+        {
+            "tag": "I have a headache",
+            "patterns": [
+                "I have a headache.",
+                "My head hurts.",
+                "I'm having headaches."
+            ],
+            "responses": [
+                "Headaches can be caused by stress, dehydration, or lack of sleep. Try drinking water, resting in a quiet, dark room, or taking over-the-counter pain medication. If headaches persist, consult a doctor."
+            ]
+        },
+        {
+            "tag": "I'm tired",
+            "patterns": [
+                "I'm tired.",
+                "I feel exhausted.",
+                "I'm always tired."
+            ],
+            "responses": [
+                "Feeling tired can be due to lack of sleep, stress, or poor diet. Ensure you are getting enough rest, eating a balanced diet, and managing stress. If fatigue persists, consult a healthcare provider."
+            ]
+        },
+        {
+            "tag": "I have a cold",
+            "patterns": [
+                "I have a cold.",
+                "I'm sneezing a lot.",
+                "I have a runny nose."
+            ],
+            "responses": [
+                "Rest, hydration, and over-the-counter medications can help alleviate cold symptoms. If symptoms worsen or persist for more than a week, seek medical advice."
+            ]
+        },
+        {
+            "tag": "I have a fever",
+            "patterns": [
+                "I have a fever.",
+                "I'm running a temperature.",
+                "My body feels hot."
+            ],
+            "responses": [
+                "Stay hydrated and rest. Over-the-counter medications like acetaminophen or ibuprofen can help reduce fever. If the fever is very high or lasts more than a couple of days, consult a doctor."
+            ]
+        },
+        {
+            "tag": "I have a sore throat",
+            "patterns": [
+                "I have a sore throat.",
+                "My throat hurts.",
+                "It's painful to swallow."
+            ],
+            "responses": [
+                "Sore throats can be relieved with warm teas, throat lozenges, and over-the-counter pain relievers. If the pain is severe or persists for more than a few days, see a healthcare provider."
+            ]
+        },
+        {
+            "tag": "I have a cough",
+            "patterns": [
+                "I have a cough.",
+                "I'm coughing a lot.",
+                "I can't stop coughing."
+            ],
+            "responses": [
+                "Coughs can be caused by colds, allergies, or respiratory infections. Stay hydrated and try using a humidifier. Over-the-counter cough medications may help. If the cough persists, see a doctor."
+            ]
+        },
+        {
+            "tag": "I have a stomach ache",
+            "patterns": [
+                "I have a stomach ache.",
+                "My stomach hurts.",
+                "I have a pain in my abdomen."
+            ],
+            "responses": [
+                "Stomach aches can be caused by indigestion, gas, or infections. Try resting, staying hydrated, and eating bland foods. If the pain is severe or persists, seek medical attention."
+            ]
+        },
+        {
+            "tag": "I'm nauseous",
+            "patterns": [
+                "I'm nauseous.",
+                "I feel like vomiting.",
+                "I have nausea."
+            ],
+            "responses": [
+                "Nausea can be relieved by resting, staying hydrated, and eating small, bland meals. Ginger or peppermint tea may help. If nausea persists, consult a healthcare provider."
+            ]
+        },
+        {
+            "tag": "I have diarrhea",
+            "patterns": [
+                "I have diarrhea.",
+                "I'm having loose stools.",
+                "I can't stop going to the bathroom."
+            ],
+            "responses": [
+                "Stay hydrated and try the BRAT diet (bananas, rice, applesauce, toast). Over-the-counter medications may help. If diarrhea persists for more than a couple of days, see a doctor."
+            ]
+        },
+        {
+            "tag": "I have constipation",
+            "patterns": [
+                "I have constipation.",
+                "I'm having trouble going to the bathroom.",
+                "I can't poop."
+            ],
+            "responses": [
+                "Increase fiber intake, drink plenty of water, and exercise regularly. Over-the-counter laxatives may help. If constipation persists, consult a healthcare provider."
+            ]
+        },
+        {
+            "tag": "I have allergies",
+            "patterns": [
+                "I have allergies.",
+                "I'm sneezing a lot.",
+                "I have itchy eyes."
+            ],
+            "responses": [
+                "Allergies can be managed with over-the-counter antihistamines and avoiding triggers. If symptoms are severe or persistent, consult an allergist."
+            ]
+        },
+        {
+            "tag": "I have a rash",
+            "patterns": [
+                "I have a rash.",
+                "My skin is itchy.",
+                "I have red spots on my skin."
+            ],
+            "responses": [
+                "Rashes can be caused by allergies, infections, or irritants. Keep the area clean and dry, and try over-the-counter creams. If the rash persists or is severe, see a doctor."
+            ]
+        },
+        {
+            "tag": "I have back pain",
+            "patterns": [
+                "I have back pain.",
+                "My back hurts.",
+                "I'm having lower back pain."
+            ],
+            "responses": [
+                "Back pain can be relieved with rest, heat or cold therapy, and over-the-counter pain medications. Stretching and strengthening exercises may help. If pain persists, consult a healthcare provider."
+            ]
+        },
+        {
+            "tag": "I have chest pain",
+            "patterns": [
+                "I have chest pain.",
+                "My chest hurts.",
+                "I'm having sharp chest pains."
+            ],
+            "responses": [
+                "Chest pain can be serious. If you experience severe or persistent chest pain, seek medical attention immediately. It could be a sign of a heart attack or other serious conditions."
+            ]
+        },
+        {
+            "tag": "I'm having trouble breathing",
+            "patterns": [
+                "I'm having trouble breathing.",
+                "I can't breathe.",
+                "I'm short of breath."
+            ],
+            "responses": [
+                "Difficulty breathing can be serious. If you experience sudden or severe shortness of breath, seek emergency medical attention immediately. It could be a sign of a serious condition."
+            ]
+        },
+        {
+            "tag": "I have a toothache",
+            "patterns": [
+                "I have a toothache.",
+                "My tooth hurts.",
+                "I'm having dental pain."
+            ],
+            "responses": [
+                "Toothaches can be relieved with over-the-counter pain relievers and cold compresses. Avoid hot, cold, or sweet foods. See a dentist as soon as possible for a proper diagnosis and treatment."
+            ]
+        },
+        {
+            "tag": "I have an earache",
+            "patterns": [
+                "I have an earache.",
+                "My ear hurts.",
+                "I'm having ear pain."
+            ],
+            "responses": [
+                "Earaches can be relieved with over-the-counter pain relievers and warm compresses. If the pain is severe or persists, see a healthcare provider. It could be an ear infection."
+            ]
+        },
+        {
+            "tag": "I have a sore back",
+            "patterns": [
+                "I have a sore back.",
+                "My back is sore.",
+                "I have back soreness."
+            ],
+            "responses": [
+                "Sore backs can be relieved with rest, heat or cold therapy, and over-the-counter pain medications. Stretching and strengthening exercises may help. If soreness persists, consult a healthcare provider."
+            ]
+        },
+        {
+            "tag": "I have muscle pain",
+            "patterns": [
+                "I have muscle pain.",
+                "My muscles hurt.",
+                "I'm having muscle aches."
+            ],
+            "responses": [
+                "Muscle pain can be relieved with rest, heat or cold therapy, and over-the-counter pain medications. Gentle stretching and massage may help. If pain persists, consult a healthcare provider."
+            ]
+        }
+    ]
+}
